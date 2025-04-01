@@ -1,4 +1,4 @@
-package com.jetbrains.edu;
+package com.jetbrains.edu.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -11,4 +11,6 @@ public class HelloWorldController {
     public String hello() {
         return "Hello World";
     }
+
+    
 }
